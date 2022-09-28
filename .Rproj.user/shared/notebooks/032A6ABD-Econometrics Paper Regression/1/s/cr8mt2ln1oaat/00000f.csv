@@ -1,1 +1,0 @@
-"0","reg.all <- lm(NUM.CHILD ~ ., data = df.data)"

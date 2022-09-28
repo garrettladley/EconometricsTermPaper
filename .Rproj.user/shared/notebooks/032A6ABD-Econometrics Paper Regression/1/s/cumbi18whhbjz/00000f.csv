@@ -1,5 +1,0 @@
-"0","df.data <- subset(df.data, STATE != 0)"
-"0","df.data <- subset(df.data, AGE.REFP != 0)"
-"0","df.data <- subset(df.data, AGE.SPOUSE != 999)"
-"0","df.data <- subset(df.data, SALARY < 9999998.00)"
-"0","df.data <- subset(df.data, RACE.SPOUSE != 9)"
