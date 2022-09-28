@@ -1,0 +1,8 @@
+"0","```r
+loan.logit.predictAsProb1 <- predict(loan.logit, newdata = new1)
+loan.logit.predictAsProb1 <- 1/(1+exp(-1*loan.logit.predictAsProb1))
+loan.logit.predictAsPect1 <- loan.logit.predictAsProb1 * 100
+loan.logit.predictAsProb2 <- predict(loan.logit, newdata = new2)
+loan.logit.predictAsProb2 <- 1/(1+exp(-1*loan.logit.predictAsProb2))
+loan.logit.predictAsPect2 <- loan.logit.predictAsProb2 * 100
+```"

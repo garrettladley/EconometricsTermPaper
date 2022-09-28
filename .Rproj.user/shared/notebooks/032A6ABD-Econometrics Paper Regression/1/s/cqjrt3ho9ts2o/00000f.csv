@@ -1,0 +1,138 @@
+"0","library(lmtest)"
+"2","Loading required package: zoo
+"
+"2","
+Attaching package: ‘zoo’
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+"
+"0","library(sandwich)"
+"0","library(pscl)"
+"2","Classes and Methods for R developed in the
+Political Science Computational Laboratory
+Department of Political Science
+Stanford University
+Simon Jackman
+hurdle and zeroinfl functions by Achim Zeileis
+"
+"0","library(mfx)"
+"2","Loading required package: MASS
+"
+"2","Loading required package: betareg
+"
+"0","library(jtools)"
+"0","library(ggstance)"
+"0","library(huxtable)"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following object is masked from ‘package:huxtable’:
+
+    add_rownames
+
+"
+"2","The following object is masked from ‘package:MASS’:
+
+    select
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(tidyr)"
+"0","library(leaps)"
+"0","library(car)"
+"2","Loading required package: carData
+"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","
+Attaching package: ‘car’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    recode
+
+"
+"0","library(broom.mixed)"
+"2","Registered S3 methods overwritten by 'broom':
+  method            from  
+  tidy.glht         jtools
+  tidy.summary.glht jtools
+"
+"0","library(relaimpo)"
+"2","Loading required package: boot
+"
+"2","
+Attaching package: ‘boot’
+
+"
+"2","The following object is masked from ‘package:car’:
+
+    logit
+
+"
+"2","Loading required package: survey
+"
+"2","Loading required package: grid
+"
+"2","Loading required package: Matrix
+"
+"2","
+Attaching package: ‘Matrix’
+
+"
+"2","The following objects are masked from ‘package:tidyr’:
+
+    expand, pack, unpack
+
+"
+"2","Loading required package: survival
+"
+"2","
+Attaching package: ‘survival’
+
+"
+"2","The following object is masked from ‘package:boot’:
+
+    aml
+
+"
+"2","
+Attaching package: ‘survey’
+
+"
+"2","The following object is masked from ‘package:graphics’:
+
+    dotchart
+
+"
+"2","Loading required package: mitools
+"
+"2","This is the global version of package relaimpo.
+
+"
+"2","If you are a non-US user, a version with the interesting additional metric pmvd is available
+
+"
+"2","from Ulrike Groempings web site at prof.beuth-hochschule.de/groemping.
+
+"
+"0","library(gvlma)"
+"0","library(readxl)"

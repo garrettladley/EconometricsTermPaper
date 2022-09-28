@@ -1,0 +1,4 @@
+"0","anova(reg.efe.state.salary,reg.efe.state.lnsalary, reg.efe.state.excluASBandINT, reg.efe.state.excluINT, reg.efe.state2)"
+"2","Error in UseMethod(""anova"") : 
+  no applicable method for 'anova' applied to an object of class ""c('plm', 'panelmodel')""
+"

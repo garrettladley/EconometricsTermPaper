@@ -1,0 +1,2 @@
+"0","df.dataDROPZEROSAL <- df.data"
+"0","df.dataDROPZEROSAL <- subset(df.dataDROPZEROSAL, SALARY != 0)"

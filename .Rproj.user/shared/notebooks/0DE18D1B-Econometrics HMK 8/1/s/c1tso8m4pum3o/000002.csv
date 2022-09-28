@@ -1,0 +1,14 @@
+"0","```r
+loan.linprob <- lm(y ~ x1 + x2, data = df.loan)
+coeftest(loan.linprob, vcov. = vcovHC, type = \"HC1\")
+```"
+"1","
+t test of coefficients:
+
+              Estimate Std. Error t value  Pr(>|t|)    
+(Intercept) -0.8681513  0.2620796 -3.3125 0.0026357 ** 
+x1           0.0188397  0.0058045  3.2457 0.0031203 ** 
+x2           0.0258309  0.0069867  3.6971 0.0009805 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+"

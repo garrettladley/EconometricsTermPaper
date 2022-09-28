@@ -1,0 +1,7 @@
+"0","```r
+df.loan$prob <- predict(loan.logit, type = \"response\")
+df.loan$correct <- ifelse(df.loan$y == 0, df.loan$prob < 0.5, df.loan$prob > 0.5)
+correct <- as.numeric(sum(df.loan$correct))
+size <- as.numeric(nrow(df.loan))
+fpcp <- 100 * correct / size
+```"

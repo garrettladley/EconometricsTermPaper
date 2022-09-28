@@ -1,0 +1,14 @@
+"0","```r
+mfx.probit <- probitmfx(loan.probit2, data = df.loan)
+mfx.probit
+```"
+"1","Call:
+probitmfx(formula = loan.probit2, data = df.loan)
+
+Marginal Effects:
+      dF/dx Std. Err.     z    P>|z|   
+x1 0.029112  0.012409 2.346 0.018976 * 
+x2 0.036653  0.011877 3.086 0.002029 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+"

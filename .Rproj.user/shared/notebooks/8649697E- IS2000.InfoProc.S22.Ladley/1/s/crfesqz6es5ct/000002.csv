@@ -1,0 +1,6 @@
+"0","```r
+meanCal <- mean(df.cereal$Calories)
+sdCal <- sd(df.cereal$Calories)
+df.cereal$z.cal <- (df.cereal$Calories - meanCal) / sdCal
+df.cereal
+```"

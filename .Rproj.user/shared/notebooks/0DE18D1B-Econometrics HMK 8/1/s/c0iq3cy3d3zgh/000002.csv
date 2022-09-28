@@ -1,0 +1,27 @@
+"0","```r
+loan.probit2 <- glm(y ~ x1 + x2, 
+                  family = binomial(link = \"probit\"), 
+                  data = df.loan)
+coeftest(loan.probit2, vcov. = vcovHC, type = \"HC1\")
+```"
+"1","
+z test of coefficients:
+
+             Estimate Std. Error z value Pr(>|z|)   
+(Intercept) -5.253383   1.902094 -2.7619 0.005747 **
+x1           0.078230   0.025616  3.0540 0.002258 **
+x2           0.098493   0.042133  2.3377 0.019405 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+"
+"0","```r
+loan.probit2.pR2 <- pR2(loan.probit2)
+```"
+"1","fitting null model for pseudo-r2
+"
+"0","```r
+loan.probit2.pR2
+```"
+"1","        llh     llhNull          G2    McFadden        r2ML        r2CU 
+-10.9924033 -20.5269530  19.0690994   0.4644893   0.4704018   0.6309864 
+"

@@ -1,0 +1,4 @@
+"0","```r
+df.csv <- read.csv(file = 'CerealDataCSV.csv' , stringsAsFactors = FALSE)
+df.csv
+```"

@@ -1,0 +1,5 @@
+"0","```r
+df.cereal$F2S <- df.cereal$Fiber / df.cereal$Sugar
+df.cereal$F2S[!is.finite(df.cereal$F2S)] <- 0
+df.cereal
+```"

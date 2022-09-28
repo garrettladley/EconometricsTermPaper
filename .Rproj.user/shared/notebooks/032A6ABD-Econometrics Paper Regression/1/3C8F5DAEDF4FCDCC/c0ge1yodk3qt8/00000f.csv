@@ -1,0 +1,1 @@
+"0","reg.best <- reg.best <- lm(NUM.CHILD ~AGE.REFP+SEX.REFP+AGE.SPOUSE+SEX.SPOUSE+EDU.FATHER, data=df.data)"

@@ -1,0 +1,4 @@
+"0","```r
+df.cereal <- subset(df.csv, select = -c(X, X.1))
+df.cereal
+```"
