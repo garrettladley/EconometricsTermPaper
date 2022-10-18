@@ -26,7 +26,6 @@ replay_pid*
 # IntelliJ
 * .iml
 * .idea
-* .DS_Store
 
 # History files
 .Rhistory
@@ -77,3 +76,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Mac OS
+.DS_Store
