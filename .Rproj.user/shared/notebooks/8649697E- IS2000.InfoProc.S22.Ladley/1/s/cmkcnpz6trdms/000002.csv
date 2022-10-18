@@ -1,6 +1,0 @@
-"0","```r
-
-paste(df.cereal[which.min(df.cereal$Year), \"Cereal.Name\"], \"is the oldest cereal and was introduced in\", min(df.cereal$Year))
-```"
-"1","[1] \"Cream of Wheat is the oldest cereal and was introduced in 1893\"
-"

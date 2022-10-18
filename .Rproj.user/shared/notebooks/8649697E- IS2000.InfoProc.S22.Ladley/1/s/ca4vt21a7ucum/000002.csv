@@ -1,3 +1,0 @@
-"0","```r
-df.cereal$Shelf[is.na(df.cereal$Shelf)] <- 1
-```"

@@ -1,8 +1,0 @@
-"0","```r
-loan.probit2.predictAsProb1 <- predict(loan.probit2, newdata = new1)
-loan.probit2.predictAsProb1 <- pnorm(loan.probit2.predictAsProb1)
-loan.probit2.predictAsPect1 <- loan.probit2.predictAsProb1 * 100
-loan.probit2.predictAsProb2 <- predict(loan.probit2, newdata = new2)
-loan.probit2.predictAsProb2 <- pnorm(loan.probit2.predictAsProb2)
-loan.probit2.predictAsPect2 <- loan.probit2.predictAsProb2 * 100
-```"

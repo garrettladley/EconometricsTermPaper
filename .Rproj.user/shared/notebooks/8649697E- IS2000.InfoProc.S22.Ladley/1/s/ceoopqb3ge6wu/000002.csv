@@ -1,4 +1,0 @@
-"0","```r
-plot(df.cereal$Sugar, df.cereal$Calories, main = \"Sugar vs Calories in Cereals\", 
-     xlab = \"Sugar (g)\", ylab = \"Calories (kcal)\", ylim = c(50,170), col = \"dark red\")
-```"

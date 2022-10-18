@@ -1,6 +1,0 @@
-"0","```r
-library(\"plyr\")
-df.manu <- count(df.cereal$Manufacturer)
-colnames(df.manu) <- c('manufacturer', 'num.cereals')
-df.manu
-```"

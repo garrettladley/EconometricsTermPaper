@@ -1,6 +1,0 @@
-"0","```r
-paste(\"Product\", df.cereal$Product[which.max(df.cereal$Sodium)], \"has the highest sodium content of\",
-      max(df.cereal$Sodium), \"mg per serving\")
-```"
-"1","[1] \"Product 47 has the highest sodium content of 320 mg per serving\"
-"
